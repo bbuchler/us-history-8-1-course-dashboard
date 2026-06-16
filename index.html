@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Course Build Dashboard</title>
+<style>
+  :root {
+    --yellow: #F3CF45;
+    --blue: #0071ce;
+    --ink: #273540;
+    --muted: #667085;
+    --line: #d9dde7;
+    --soft: #f2f2f7;
+    --green: #2e9e5b;
+    --orange: #b86514;
+    --red: #c84636;
+    --purple: #7356a6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--ink);
+    background: #f8f9fc;
+  }
+  header {
+    border-top: 6px solid var(--yellow);
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 14px 22px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  h1 {
+    font-size: 20px;
+    margin: 0;
+    color: var(--blue);
+  }
+  select, button {
+    font: inherit;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink);
+    padding: 7px 10px;
+  }
+  button {
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .primary {
+    background: var(--blue);
+    color: #fff;
+    border-color: var(--blue);
+  }
+  .ghost {
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: 700;
+    padding: 7px 10px;
+  }
+  main {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 18px 22px 60px;
+  }
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(120px, 1fr));
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  .stat {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+  .stat b {
+    display: block;
+    font-size: 22px;
+    color: var(--blue);
+  }
+  .stat span {
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .toolbar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0 0 14px;
+    flex-wrap: wrap;
+  }
+  .filter {
+    border: 1px solid var(--line);
+    background: #fff;
+    border-radius: 18px;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .filter.active {
+    background: var(--ink);
+    color: #fff;
+    border-color: var(--ink);
+  }
+  .module {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--blue);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  .module.project { border-left-color: var(--purple); }
+  .module.exam { border-left-color: #555; }
+  .module.needs { border-left-color: var(--orange); }
+  .module.todo { border-left-color: var(--muted); }
+  .module-head {
+    display: grid;
+    grid-template-columns: 54px 1fr auto;
+    gap: 14px;
+    align-items: center;
+    padding: 13px 14px;
+    cursor: pointer;
+  }
+  .num {
+    background: var(--ink);
+    color: #fff;
+    border-radius: 6px;
+    min-height: 42px;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .project .num { background: var(--purple); }
+  .exam .num { background: #555; }
+  .title {
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .topic {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 2px;
+  }
+  .lesson-line {
+    color: var(--ink);
+    font-size: 13px;
+    margin-top: 6px;
+  }
+  .chips {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .chip {
+    border-radius: 14px;
+    background: var(--soft);
+    color: var(--ink);
+    font-size: 12px;
+    padding: 4px 9px;
+    white-space: nowrap;
+  }
+  .chip.ok { background: #e8f5ed; color: var(--green); }
+  .chip.warn { background: #fff1df; color: var(--orange); }
+  .chip.bad { background: #fdebea; color: var(--red); }
+  .chip.project { background: #f0eafb; color: var(--purple); }
+  .details {
+    border-top: 1px solid var(--line);
+    background: #fcfcfe;
+    padding: 14px 18px 16px;
+    display: none;
+  }
+  .module.open .details { display: block; }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  .block {
+    border: 1px solid #e7e9f1;
+    border-radius: 8px;
+    padding: 10px 12px;
+    background: #fff;
+  }
+  .block h3 {
+    margin: 0 0 7px;
+    color: var(--blue);
+    font-size: 13px;
+  }
+  .block p {
+    margin: 4px 0;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  .list {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 13px;
+  }
+  .list li { margin: 4px 0; }
+  .wide { grid-column: 1 / -1; }
+  .muted { color: var(--muted); }
+  @media (max-width: 860px) {
+    .summary { grid-template-columns: repeat(2, minmax(120px, 1fr)); }
+    .module-head { grid-template-columns: 44px 1fr; }
+    .chips { grid-column: 1 / -1; justify-content: flex-start; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>US History 8-1 Course Build Dashboard</h1>
+  <select id="courseSelect"></select>
+  <button class="primary" id="exportBtn">Export Admin Outline</button>
+  <a class="ghost" href="exports/US History 8-1 - Course Outline.xlsx">Download Course Outline</a>
+</header>
+
+<main>
+  <section class="block" style="margin-bottom:14px;">
+    <h2 style="margin-top:0;color:#0071ce;">Reviewer Snapshot</h2>
+    <p>This static dashboard is generated from the local course-planning source files. Canvas links may require an Altus/Canvas login. No API keys or private credentials are included.</p>
+    <p class="muted">Last exported: 6/16/2026, 4:22:41 PM Pacific</p>
+  </section>
+  <section class="summary" id="summary"></section>
+  <div class="toolbar" id="filters"></div>
+  <section id="modules"></section>
+</main>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const state = { courses: [], course: null, toc: {}, plan: null, tracker: [], filter: 'all' };
+
+async function loadJson(path, fallback = null) {
+  try {
+    const r = await fetch(path + '?t=' + Date.now());
+    if (!r.ok) throw new Error(path);
+    return await r.json();
+  } catch {
+    return fallback;
+  }
+}
+
+function esc(value) {
+  return String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function splitList(value) {
+  if (!value) return [];
+  return String(value).split(/\s+\|\s+|;\s+/).map(s => s.trim()).filter(Boolean);
+}
+
+function lessonText(row) {
+  return row.lesson_titles || row.lessons || row.textbook_pages || '';
+}
+
+function statusClass(row) {
+  if (row.type === 'project') return 'project';
+  if (row.type === 'exam') return 'exam';
+  if (row.build_status === 'built' && Number(row.savvas_links_remaining || 0) > 0) return 'needs';
+  if (row.build_status === 'built') return 'built';
+  return 'todo';
+}
+
+function chip(label, cls = '') {
+  return `<span class="chip ${cls}">${esc(label)}</span>`;
+}
+
+function rowFromPlan(module) {
+  const lessons = (module.lessons || []).map(id => {
+    const l = state.toc[id];
+    return l ? `${id}: ${l.title} (p. ${l.start}-${l.end})` : id;
+  }).join('; ');
+  const first = state.toc[(module.lessons || [])[0]];
+  return {
+    module: module.n,
+    type: module.type,
+    title: module.title,
+    topic: first?.topicTitle || '',
+    lessons: (module.lessons || []).join('; '),
+    lesson_titles: lessons,
+    build_status: module.type === 'standard' ? 'not_started' : module.type,
+    next_action: module.type === 'project' ? 'Plan project with Baptiste before building.' : 'Inspect resources and draft module JSON.'
+  };
+}
+
+function moduleDetails(row) {
+  const interactives = splitList(row.selected_interactives);
+  const videos = splitList(row.video_plan);
+  const youtube = splitList(row.youtube_links);
+  const packetSources = splitList(row.paper_packet_sources);
+  const conversion = splitList(row.paper_packet_activity_conversion);
+  return `
+    <div class="details">
+      <div class="grid">
+        <div class="block">
+          <h3>Build Status</h3>
+          <p><b>Status:</b> ${esc(row.build_status || '')}</p>
+          <p><b>Next:</b> ${esc(row.next_action || '')}</p>
+          <p><b>Canvas:</b> ${row.canvas_url ? `<a href="${esc(row.canvas_url)}" target="_blank">${esc(row.canvas_module_id)}</a>` : '<span class="muted">not built yet</span>'}</p>
+        </div>
+        <div class="block">
+          <h3>Grading</h3>
+          <p>${esc(row.teacher_graded || 'not decided yet')}</p>
+          <p class="muted">${esc(row.grading_profile || '')}</p>
+        </div>
+        <div class="block">
+          <h3>Textbook</h3>
+          <p>${esc(row.textbook_pages || lessonText(row) || 'not assigned')}</p>
+        </div>
+        <div class="block">
+          <h3>Standards / Essential Question</h3>
+          <p class="muted">Stored in the module JSON and admin outline export when built.</p>
+          <p>${esc(row.topic || '')}</p>
+        </div>
+        <div class="block">
+          <h3>Activities</h3>
+          ${interactives.length ? `<ul class="list">${interactives.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="muted">No activities selected yet.</p>'}
+        </div>
+        <div class="block">
+          <h3>Video</h3>
+          ${videos.length ? `<ul class="list">${videos.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="muted">No video selected yet.</p>'}
+          ${youtube.length ? `<p>${youtube.map(x => `<a href="${esc(x)}" target="_blank">${esc(x)}</a>`).join('<br>')}</p>` : ''}
+        </div>
+        <div class="block">
+          <h3>Stranger Than Fiction</h3>
+          <p>${esc(row.stf_title || 'not selected yet')}</p>
+          <p class="muted">${esc(row.stf_format || '')}</p>
+        </div>
+        <div class="block">
+          <h3>Module Quiz</h3>
+          <p>${esc(row.module_quiz || 'not drafted yet')}</p>
+        </div>
+        <div class="block wide">
+          <h3>Paper Packet Future View</h3>
+          <p><b>Readiness:</b> ${esc(row.paper_packet_readiness || 'not started')}</p>
+          ${packetSources.length ? `<p><b>Sources:</b></p><ul class="list">${packetSources.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+          ${conversion.length ? `<p><b>Activity conversion:</b></p><ul class="list">${conversion.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+        </div>
+      </div>
+    </div>`;
+}
+
+function moduleCard(row) {
+  const cls = statusClass(row);
+  const remaining = Number(row.savvas_links_remaining || 0);
+  const chips = [
+    chip(row.type || 'standard', row.type === 'project' ? 'project' : ''),
+    row.build_status === 'built' ? chip('built', 'ok') : chip(row.build_status || 'not started', 'warn'),
+    remaining > 0 ? chip(`${remaining} Savvas links`, 'warn') : (row.savvas_links_total ? chip('links done', 'ok') : ''),
+    row.paper_packet_readiness ? chip('packet tracked') : ''
+  ].filter(Boolean).join('');
+  return `
+    <article class="module ${cls}" data-status="${esc(row.build_status || '')}" data-type="${esc(row.type || '')}">
+      <div class="module-head">
+        <div class="num">${esc(row.module)}</div>
+        <div>
+          <div class="title">${esc(row.title)}</div>
+          <div class="topic">${esc(row.topic || 'Topic not recorded yet')}</div>
+          <div class="lesson-line">${esc(lessonText(row) || 'No textbook lesson assigned')}</div>
+        </div>
+        <div class="chips">${chips}</div>
+      </div>
+      ${moduleDetails(row)}
+    </article>`;
+}
+
+function renderSummary(rows) {
+  const built = rows.filter(r => r.build_status === 'built').length;
+  const projects = rows.filter(r => r.type === 'project').length;
+  const links = rows.reduce((a, r) => a + Number(r.savvas_links_remaining || 0), 0);
+  const packet = rows.filter(r => r.paper_packet_sources).length;
+  const standardsReady = rows.filter(r => r.build_status === 'built' && r.content_json).length;
+  $('#summary').innerHTML = [
+    ['Modules', rows.length],
+    ['Built', built],
+    ['Projects', projects],
+    ['Savvas links left', links],
+    ['Packet sources tracked', packet],
+    ['Admin outline detail', standardsReady]
+  ].map(([label, value]) => `<div class="stat"><b>${value}</b><span>${label}</span></div>`).join('');
+}
+
+function renderFilters() {
+  const filters = [
+    ['all', 'All'],
+    ['built', 'Built'],
+    ['needs_links', 'Needs Savvas links'],
+    ['not_started', 'Not started'],
+    ['project', 'Projects']
+  ];
+  $('#filters').innerHTML = filters.map(([id, label]) =>
+    `<button class="filter ${state.filter === id ? 'active' : ''}" data-filter="${id}">${label}</button>`
+  ).join('');
+  $('#filters').addEventListener('click', e => {
+    const btn = e.target.closest('[data-filter]');
+    if (!btn) return;
+    state.filter = btn.dataset.filter;
+    render();
+  }, { once: true });
+}
+
+function passesFilter(row) {
+  if (state.filter === 'built') return row.build_status === 'built';
+  if (state.filter === 'needs_links') return Number(row.savvas_links_remaining || 0) > 0;
+  if (state.filter === 'not_started') return !['built', 'project', 'exam'].includes(row.build_status);
+  if (state.filter === 'project') return row.type === 'project';
+  return true;
+}
+
+function render() {
+  const trackerRows = state.tracker.length
+    ? state.tracker
+    : (state.plan?.modules || []).map(rowFromPlan);
+  renderSummary(trackerRows);
+  renderFilters();
+  $('#modules').innerHTML = trackerRows.filter(passesFilter).map(moduleCard).join('');
+  $('#modules').querySelectorAll('.module-head').forEach(head => {
+    head.addEventListener('click', () => head.closest('.module').classList.toggle('open'));
+  });
+}
+
+async function showCourse(course) {
+  state.course = course;
+  const toc = await loadJson('data/' + course.toc, { lessons: [] });
+  state.toc = Object.fromEntries((toc.lessons || []).map(l => [l.id, l]));
+  const planFile = course.plan || (course.plans || [])[0];
+  state.plan = await loadJson('data/' + planFile, { modules: [] });
+  const volume = state.plan.volume || course.id;
+  state.tracker = await loadJson(`build-tracker-${volume}.json`, []);
+  state.filter = 'all';
+  render();
+}
+
+async function init() {
+  const data = await loadJson('data/courses.json', { courses: [] });
+  state.courses = data.courses.filter(c => c.id !== 'all' && !c.id.endsWith('-orig'));
+  $('#courseSelect').innerHTML = state.courses.map(c => `<option value="${esc(c.id)}">${esc(c.name)}</option>`).join('');
+  $('#courseSelect').addEventListener('change', () => {
+    showCourse(state.courses.find(c => c.id === $('#courseSelect').value));
+  });
+  $('#exportBtn').addEventListener('click', () => {
+    const volume = state.plan?.volume || state.course?.id || '8-1';
+    window.location.href = 'exports/US History 8-1 - Course Outline.xlsx';
+  });
+  await showCourse(state.courses[0]);
+}
+
+init().catch(err => {
+  $('#modules').innerHTML = `<div class="block">Error loading dashboard: ${esc(err.message)}</div>`;
+});
+</script>
+</body>
+</html>

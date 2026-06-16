@@ -1,0 +1,29 @@
+{
+  "course": "US History 8-1",
+  "volume": "8-1",
+  "semester": "First Semester",
+  "note": "REBALANCED 2026-05-21 for even pacing. Every module stays within one topic; Oregon Country (T4.L5) now included; no module spans two topics. Compare against plan-8-1-original.json in the dropdown.",
+  "targetHoursPerModule": 2,
+  "modules": [
+    { "n": 1,  "type": "standard", "title": "Voyages of Discovery & Commerce and Colonies", "lessons": ["R.L1", "R.L2"] },
+    { "n": 2,  "type": "standard", "title": "The 13 Colonies & A Tradition of Liberty", "lessons": ["R.L3", "R.L4"] },
+    { "n": 3,  "type": "standard", "title": "The French and Indian War & Growing Resentment", "lessons": ["T1.L1", "T1.L2"] },
+    { "n": 4,  "type": "standard", "title": "Taking Up Arms", "lessons": ["T1.L3"] },
+    { "n": 5,  "type": "standard", "title": "The Move Toward Independence", "lessons": ["T1.L4"] },
+    { "n": 6,  "type": "standard", "title": "Winning Independence", "lessons": ["T1.L5"] },
+    { "n": 7,  "type": "standard", "title": "Creating the Constitution", "lessons": ["T2.L1", "T2.L2", "T2.L3"] },
+    { "n": 8,  "type": "standard", "title": "Ratification & How the Constitution Works", "lessons": ["T2.L4", "T2.L5"] },
+    { "n": 9,  "type": "standard", "title": "Federalism & Citizenship", "lessons": ["T2.L6", "T2.L7"] },
+    { "n": 10, "type": "standard", "title": "Washington's Presidency & the Two-Party System", "lessons": ["T3.L1", "T3.L2"] },
+    { "n": 11, "type": "standard", "title": "Adams, Jefferson & a Changing Nation", "lessons": ["T3.L3", "T3.L4"] },
+    { "n": 12, "type": "project", "title": "PROJECT — Dueling Leaders: Burr vs Hamilton", "lessons": [] },
+    { "n": 13, "type": "standard", "title": "Madison & the War of 1812", "lessons": ["T3.L5"] },
+    { "n": 14, "type": "standard", "title": "Monroe's Presidency and Everyday Life", "lessons": ["T3.L6"] },
+    { "n": 15, "type": "standard", "title": "The Age of Jackson", "lessons": ["T4.L1", "T4.L2"] },
+    { "n": 16, "type": "standard", "title": "American Indians & Westward Movement", "lessons": ["T4.L3", "T4.L4"] },
+    { "n": 17, "type": "standard", "title": "Settling Oregon & Independence for Texas", "lessons": ["T4.L5", "T4.L6"] },
+    { "n": 18, "type": "standard", "title": "Manifest Destiny in California & the Southwest", "lessons": ["T4.L7"] },
+    { "n": 19, "type": "project", "title": "PROJECT — Current Events Connection", "lessons": [] },
+    { "n": 20, "type": "exam", "title": "Midterm Exam", "lessons": [] }
+  ]
+}

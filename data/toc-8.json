@@ -1,0 +1,72 @@
+{
+  "title": "Savvas myWorld Interactive: Growth and Conflict (CA American History, Grade 8)",
+  "note": "Lesson start pages read from TOC screenshots; end pages derived as next start - 1 (so end is +/-1 until confirmed in book).",
+  "lessons": [
+    { "id": "R.L1",  "topic": "Review", "topicTitle": "Connecting With Past Learnings", "title": "The Voyages of Discovery", "start": 6, "end": 13 },
+    { "id": "R.L2",  "topic": "Review", "topicTitle": "Connecting With Past Learnings", "title": "Commerce and Colonies", "start": 14, "end": 20 },
+    { "id": "R.L3",  "topic": "Review", "topicTitle": "Connecting With Past Learnings", "title": "The 13 English Colonies", "start": 21, "end": 25 },
+    { "id": "R.L4",  "topic": "Review", "topicTitle": "Connecting With Past Learnings", "title": "A Tradition of Liberty and Rights", "start": 26, "end": 35 },
+
+    { "id": "T1.L1", "topic": "Topic 1", "topicTitle": "The Revolutionary Era (1750-1783)", "title": "The French and Indian War", "start": 43, "end": 51 },
+    { "id": "T1.L2", "topic": "Topic 1", "topicTitle": "The Revolutionary Era (1750-1783)", "title": "Growing Resentment Against Britain", "start": 52, "end": 63 },
+    { "id": "T1.L3", "topic": "Topic 1", "topicTitle": "The Revolutionary Era (1750-1783)", "title": "Taking Up Arms", "start": 64, "end": 74 },
+    { "id": "T1.L4", "topic": "Topic 1", "topicTitle": "The Revolutionary Era (1750-1783)", "title": "The Move Toward Independence", "start": 75, "end": 87 },
+    { "id": "T1.L5", "topic": "Topic 1", "topicTitle": "The Revolutionary Era (1750-1783)", "title": "Winning Independence", "start": 88, "end": 99 },
+
+    { "id": "T2.L1", "topic": "Topic 2", "topicTitle": "A Constitution for the United States (1776-Present)", "title": "A Weak Confederation", "start": 107, "end": 113 },
+    { "id": "T2.L2", "topic": "Topic 2", "topicTitle": "A Constitution for the United States (1776-Present)", "title": "Drafting a Constitution", "start": 114, "end": 119 },
+    { "id": "T2.L3", "topic": "Topic 2", "topicTitle": "A Constitution for the United States (1776-Present)", "title": "Ideas That Influenced the Constitution", "start": 120, "end": 126 },
+    { "id": "T2.L4", "topic": "Topic 2", "topicTitle": "A Constitution for the United States (1776-Present)", "title": "Federalists, Antifederalists, and the Bill of Rights", "start": 127, "end": 134 },
+    { "id": "T2.L5", "topic": "Topic 2", "topicTitle": "A Constitution for the United States (1776-Present)", "title": "Understanding the Constitution", "start": 135, "end": 146 },
+    { "id": "T2.L6", "topic": "Topic 2", "topicTitle": "A Constitution for the United States (1776-Present)", "title": "Federalism and Amendments", "start": 147, "end": 156 },
+    { "id": "T2.L7", "topic": "Topic 2", "topicTitle": "A Constitution for the United States (1776-Present)", "title": "Citizens' Rights and Responsibilities", "start": 157, "end": 163 },
+
+    { "id": "T3.L1", "topic": "Topic 3", "topicTitle": "The Early Republic (1789-1825)", "title": "Washington's Presidency", "start": 171, "end": 182 },
+    { "id": "T3.L2", "topic": "Topic 3", "topicTitle": "The Early Republic (1789-1825)", "title": "A Two-Party System Develops", "start": 183, "end": 190 },
+    { "id": "T3.L3", "topic": "Topic 3", "topicTitle": "The Early Republic (1789-1825)", "title": "Presidents Adams and Jefferson", "start": 191, "end": 201 },
+    { "id": "T3.L4", "topic": "Topic 3", "topicTitle": "The Early Republic (1789-1825)", "title": "A Changing Nation", "start": 202, "end": 213 },
+    { "id": "T3.L5", "topic": "Topic 3", "topicTitle": "The Early Republic (1789-1825)", "title": "Madison and the War of 1812", "start": 214, "end": 226 },
+    { "id": "T3.L6", "topic": "Topic 3", "topicTitle": "The Early Republic (1789-1825)", "title": "Monroe's Presidency and Everyday Life", "start": 227, "end": 239 },
+
+    { "id": "T4.L1", "topic": "Topic 4", "topicTitle": "The Age of Jackson and Westward Expansion (1824-1860)", "title": "Jackson Wins the Presidency", "start": 247, "end": 258 },
+    { "id": "T4.L2", "topic": "Topic 4", "topicTitle": "The Age of Jackson and Westward Expansion (1824-1860)", "title": "Political Conflict and Economic Crisis", "start": 259, "end": 269 },
+    { "id": "T4.L3", "topic": "Topic 4", "topicTitle": "The Age of Jackson and Westward Expansion (1824-1860)", "title": "Conflict with American Indians", "start": 270, "end": 277 },
+    { "id": "T4.L4", "topic": "Topic 4", "topicTitle": "The Age of Jackson and Westward Expansion (1824-1860)", "title": "Westward Movement", "start": 278, "end": 284 },
+    { "id": "T4.L5", "topic": "Topic 4", "topicTitle": "The Age of Jackson and Westward Expansion (1824-1860)", "title": "Settling Oregon Country", "start": 285, "end": 292 },
+    { "id": "T4.L6", "topic": "Topic 4", "topicTitle": "The Age of Jackson and Westward Expansion (1824-1860)", "title": "New Spain and Independence for Texas", "start": 293, "end": 301 },
+    { "id": "T4.L7", "topic": "Topic 4", "topicTitle": "The Age of Jackson and Westward Expansion (1824-1860)", "title": "Manifest Destiny in California and the Southwest", "start": 302, "end": 311 },
+
+    { "id": "T5.L1", "topic": "Topic 5", "topicTitle": "Society and Culture Before the Civil War (1820-1860)", "title": "The Industrial Revolution", "start": 319, "end": 331 },
+    { "id": "T5.L2", "topic": "Topic 5", "topicTitle": "Society and Culture Before the Civil War (1820-1860)", "title": "Industrialization and Immigration", "start": 332, "end": 340 },
+    { "id": "T5.L3", "topic": "Topic 5", "topicTitle": "Society and Culture Before the Civil War (1820-1860)", "title": "King Cotton and Life in the South", "start": 341, "end": 352 },
+    { "id": "T5.L4", "topic": "Topic 5", "topicTitle": "Society and Culture Before the Civil War (1820-1860)", "title": "Abolitionism", "start": 353, "end": 361 },
+    { "id": "T5.L5", "topic": "Topic 5", "topicTitle": "Society and Culture Before the Civil War (1820-1860)", "title": "Reform and Women's Rights", "start": 362, "end": 374 },
+    { "id": "T5.L6", "topic": "Topic 5", "topicTitle": "Society and Culture Before the Civil War (1820-1860)", "title": "Arts and Literature", "start": 375, "end": 381 },
+
+    { "id": "T6.L1", "topic": "Topic 6", "topicTitle": "Sectionalism and Civil War (1820-1865)", "title": "Conflicts and Compromises", "start": 389, "end": 398 },
+    { "id": "T6.L2", "topic": "Topic 6", "topicTitle": "Sectionalism and Civil War (1820-1865)", "title": "Growing Tensions", "start": 399, "end": 410 },
+    { "id": "T6.L3", "topic": "Topic 6", "topicTitle": "Sectionalism and Civil War (1820-1865)", "title": "Division and the Outbreak of War", "start": 411, "end": 422 },
+    { "id": "T6.L4", "topic": "Topic 6", "topicTitle": "Sectionalism and Civil War (1820-1865)", "title": "The Course of the War", "start": 423, "end": 429 },
+    { "id": "T6.L5", "topic": "Topic 6", "topicTitle": "Sectionalism and Civil War (1820-1865)", "title": "Emancipation and Life in Wartime", "start": 430, "end": 442 },
+    { "id": "T6.L6", "topic": "Topic 6", "topicTitle": "Sectionalism and Civil War (1820-1865)", "title": "The War's End", "start": 443, "end": 453 },
+
+    { "id": "T7.L1", "topic": "Topic 7", "topicTitle": "The Reconstruction Era (1865-1877)", "title": "Early Reconstruction", "start": 461, "end": 467 },
+    { "id": "T7.L2", "topic": "Topic 7", "topicTitle": "The Reconstruction Era (1865-1877)", "title": "Radical Reconstruction", "start": 468, "end": 475 },
+    { "id": "T7.L3", "topic": "Topic 7", "topicTitle": "The Reconstruction Era (1865-1877)", "title": "Reconstruction and Southern Society", "start": 476, "end": 483 },
+    { "id": "T7.L4", "topic": "Topic 7", "topicTitle": "The Reconstruction Era (1865-1877)", "title": "The Aftermath of Reconstruction", "start": 484, "end": 489 },
+
+    { "id": "T8.L1", "topic": "Topic 8", "topicTitle": "Industrial and Economic Growth (1865-1914)", "title": "Mining, Railroads, and the Economy", "start": 497, "end": 507 },
+    { "id": "T8.L2", "topic": "Topic 8", "topicTitle": "Industrial and Economic Growth (1865-1914)", "title": "Western Agriculture", "start": 508, "end": 519 },
+    { "id": "T8.L3", "topic": "Topic 8", "topicTitle": "Industrial and Economic Growth (1865-1914)", "title": "Hardship for American Indians", "start": 520, "end": 531 },
+    { "id": "T8.L4", "topic": "Topic 8", "topicTitle": "Industrial and Economic Growth (1865-1914)", "title": "Industry and Corporations", "start": 532, "end": 540 },
+    { "id": "T8.L5", "topic": "Topic 8", "topicTitle": "Industrial and Economic Growth (1865-1914)", "title": "The Labor Movement", "start": 541, "end": 547 },
+    { "id": "T8.L6", "topic": "Topic 8", "topicTitle": "Industrial and Economic Growth (1865-1914)", "title": "New Technologies", "start": 548, "end": 555 },
+
+    { "id": "T9.L1", "topic": "Topic 9", "topicTitle": "The Progressive Era (1865-1920)", "title": "A New Wave of Immigration", "start": 563, "end": 572 },
+    { "id": "T9.L2", "topic": "Topic 9", "topicTitle": "The Progressive Era (1865-1920)", "title": "Urbanization", "start": 573, "end": 579 },
+    { "id": "T9.L3", "topic": "Topic 9", "topicTitle": "The Progressive Era (1865-1920)", "title": "The Rise of Progressivism", "start": 580, "end": 589 },
+    { "id": "T9.L4", "topic": "Topic 9", "topicTitle": "The Progressive Era (1865-1920)", "title": "The Progressive Presidents", "start": 590, "end": 596 },
+    { "id": "T9.L5", "topic": "Topic 9", "topicTitle": "The Progressive Era (1865-1920)", "title": "Progress and Setbacks for Social Justice", "start": 597, "end": 608 },
+    { "id": "T9.L6", "topic": "Topic 9", "topicTitle": "The Progressive Era (1865-1920)", "title": "A Changing American Culture", "start": 609, "end": 619 }
+  ]
+}

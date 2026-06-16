@@ -1,0 +1,10 @@
+{
+  "courses": [
+    {
+      "id": "8-1",
+      "name": "US History 8-1 (rebalanced)",
+      "plan": "plan-8-1.json",
+      "toc": "toc-8.json"
+    }
+  ]
+}
