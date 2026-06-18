@@ -295,11 +295,15 @@ function rowFromPlan(module) {
 
 function moduleDetails(row) {
   const interactives = splitList(row.selected_interactives);
+  const activityItems = row.type === 'project' && !interactives.length
+    ? splitList(row.activity_types)
+    : interactives;
   const videos = splitList(row.video_plan);
   const youtube = splitList(row.youtube_links);
   const standards = splitList(row.standards_summary);
   const packetSources = splitList(row.paper_packet_sources);
   const conversion = splitList(row.paper_packet_activity_conversion);
+  const projectMaterials = row.type === 'project' ? packetSources.slice(0, 6) : [];
   return `
     <div class="details">
       <div class="grid">
@@ -315,8 +319,10 @@ function moduleDetails(row) {
           <p class="muted">${esc(row.grading_profile || '')}</p>
         </div>
         <div class="block">
-          <h3>Textbook</h3>
-          <p>${esc(row.textbook_pages || lessonText(row) || 'not assigned')}</p>
+          <h3>${row.type === 'project' ? 'Project Origin / Materials' : 'Textbook'}</h3>
+          ${row.type === 'project'
+            ? (projectMaterials.length ? `<ul class="list">${projectMaterials.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="muted">Project source/materials not recorded yet.</p>')
+            : `<p>${esc(row.textbook_pages || lessonText(row) || 'not assigned')}</p>`}
         </div>
         <div class="block">
           <h3>Standards / Essential Question</h3>
@@ -324,23 +330,23 @@ function moduleDetails(row) {
           ${standards.length ? `<ul class="list">${standards.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="muted">Standards not recorded yet.</p>'}
         </div>
         <div class="block">
-          <h3>Activities</h3>
-          ${interactives.length ? `<ul class="list">${interactives.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="muted">No activities selected yet.</p>'}
+          <h3>${row.type === 'project' ? 'Project Flow' : 'Activities'}</h3>
+          ${activityItems.length ? `<ul class="list">${activityItems.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="muted">No activities selected yet.</p>'}
         </div>
-        <div class="block">
+        ${row.type === 'project' ? '' : `<div class="block">
           <h3>Video</h3>
           ${videos.length ? `<ul class="list">${videos.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="muted">No video selected yet.</p>'}
           ${youtube.length ? `<p>${youtube.map(x => `<a href="${esc(x)}" target="_blank">${esc(x)}</a>`).join('<br>')}</p>` : ''}
-        </div>
-        <div class="block">
+        </div>`}
+        ${row.type === 'project' ? '' : `<div class="block">
           <h3>Stranger Than Fiction</h3>
           <p>${esc(row.stf_title || 'not selected yet')}</p>
           <p class="muted">${esc(row.stf_format || '')}</p>
-        </div>
-        <div class="block">
+        </div>`}
+        ${row.type === 'project' ? '' : `<div class="block">
           <h3>Module Quiz</h3>
           <p>${esc(row.module_quiz || 'not drafted yet')}</p>
-        </div>
+        </div>`}
         <div class="block wide">
           <h3>Paper Packet Future View</h3>
           <p><b>Readiness:</b> ${esc(row.paper_packet_readiness || 'not started')}</p>
