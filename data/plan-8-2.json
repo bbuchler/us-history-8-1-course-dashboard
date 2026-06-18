@@ -1,0 +1,29 @@
+{
+  "course": "US History 8-2",
+  "volume": "8-2",
+  "semester": "Second Semester",
+  "note": "REBALANCED 2026-05-21 for even pacing. Every module stays within one topic. Module 5 gap filled (Arts & Literature folded into the Reform module). A couple of modules are unavoidably big (~23pp); a couple are intentionally light (Abolitionism, New Technologies) as breathers.",
+  "targetHoursPerModule": 2,
+  "modules": [
+    { "n": 1,  "type": "standard", "title": "Industrialization & Immigration in the North", "lessons": ["T5.L1", "T5.L2"] },
+    { "n": 2,  "type": "standard", "title": "King Cotton & Life in the South", "lessons": ["T5.L3"] },
+    { "n": 3,  "type": "standard", "title": "Abolitionism", "lessons": ["T5.L4"] },
+    { "n": 4,  "type": "standard", "title": "Reform, Women's Rights & Culture", "lessons": ["T5.L5", "T5.L6"] },
+    { "n": 5,  "type": "standard", "title": "The Road to War: Compromises & Tensions (+ DBQ: Lincoln & Douglas)", "lessons": ["T6.L1", "T6.L2"] },
+    { "n": 6,  "type": "standard", "title": "The Civil War Begins", "lessons": ["T6.L3", "T6.L4"] },
+    { "n": 7,  "type": "standard", "title": "Emancipation & Life in Wartime", "lessons": ["T6.L5"] },
+    { "n": 8,  "type": "standard", "title": "The War's End", "lessons": ["T6.L6"] },
+    { "n": 9,  "type": "standard", "title": "Early & Radical Reconstruction", "lessons": ["T7.L1", "T7.L2"] },
+    { "n": 10, "type": "standard", "title": "Reconstruction & Its Aftermath", "lessons": ["T7.L3", "T7.L4"] },
+    { "n": 11, "type": "project", "title": "PROJECT — Was Abraham Lincoln Racist? Academic Debate", "lessons": [] },
+    { "n": 12, "type": "standard", "title": "Mining, Railroads & Western Agriculture", "lessons": ["T8.L1", "T8.L2"] },
+    { "n": 13, "type": "standard", "title": "Hardship for American Indians", "lessons": ["T8.L3"] },
+    { "n": 14, "type": "standard", "title": "Industry, Corporations & Labor", "lessons": ["T8.L4", "T8.L5"] },
+    { "n": 15, "type": "standard", "title": "New Technologies", "lessons": ["T8.L6"] },
+    { "n": 16, "type": "standard", "title": "Immigration & Urbanization", "lessons": ["T9.L1", "T9.L2"] },
+    { "n": 17, "type": "standard", "title": "The Progressive Movement", "lessons": ["T9.L3", "T9.L4"] },
+    { "n": 18, "type": "standard", "title": "Social Justice & a Changing Culture", "lessons": ["T9.L5", "T9.L6"] },
+    { "n": 19, "type": "project", "title": "PROJECT — Current Events Connection", "lessons": [] },
+    { "n": 20, "type": "exam", "title": "Final Exam", "lessons": [] }
+  ]
+}

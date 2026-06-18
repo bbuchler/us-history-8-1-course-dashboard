@@ -47,24 +47,24 @@
     "canvas_module_id": 22304,
     "canvas_url": "https://altus.instructure.com/courses/3768/modules#module_22304",
     "content_json": "course_planning/content/8-1/module-02.json",
-    "activity_types": "eText reading | video check | Interactive Map | Interactive Gallery | Interactive Primary Source | Biography | check for understanding | stranger than fiction (choice) | module quiz",
+    "activity_types": "eText reading | video check | Interactive Map | Interactive Gallery | check for understanding | stranger than fiction (choice) | module quiz",
     "grading_profile": "video check self-graded (2 attempts) | CFU self-graded (2 attempts) | STF self-graded (2 attempts) | module quiz self-graded (2 attempts, 70% pass) | Savvas eText/interactives not graded; mark done",
     "teacher_graded": "no - standard module is self-graded/auto-checked",
     "textbook_pages": "R.L3 pp. 21-25 | R.L4 pp. 26-35",
-    "selected_interactives": "Interactive Map: Comparing the English Colonies | Interactive Gallery: The Middle Colonies | Interactive Map: The New England Colonies | Interactive Gallery: A New Kind of Society | Interactive Primary Source: Two Treatises of Government (John Locke) | Biography: John Locke | Biography: Charles de Montesquieu",
+    "selected_interactives": "Interactive Map: Comparing the English Colonies | Interactive Gallery: The Middle Colonies | Interactive Map: The New England Colonies | Interactive Gallery: A New Kind of Society",
     "video_plan": "The 13 Colonies: New England, Middle, and Southern Colonies Compared | Locke & Montesquieu: The Philosophers Behind the Founders",
     "youtube_links": "https://www.youtube.com/watch?v=Ig1-Ibb-Qi0 | https://www.youtube.com/watch?v=O7GvWSSMkis",
     "stf_title": "The Salem \"Bad Bread\" Mystery",
     "stf_format": "choice",
     "module_quiz": "pool 20, shows 10, attempts 2, pass 70%",
     "paper_packet_readiness": "sources tracked",
-    "paper_packet_sources": "Textbook R.L3 pp. 21-25 | Textbook R.L4 pp. 26-35 | Video: https://www.youtube.com/watch?v=Ig1-Ibb-Qi0 | Video: https://www.youtube.com/watch?v=O7GvWSSMkis | STF video: https://www.youtube.com/watch?v=JmH7XQoxOZ0 | Savvas Interactive Map: Comparing the English Colonies | Savvas Interactive Gallery: The Middle Colonies | Savvas Interactive Map: The New England Colonies | Savvas Interactive Gallery: A New Kind of Society | Savvas Interactive Primary Source: Two Treatises of Government (John Locke) | Savvas Biography: John Locke | Savvas Biography: Charles de Montesquieu | CFU questions: stored in checkForUnderstanding.questions | Module quiz pool: stored in moduleQuiz.questions | STF story/questions: stored in strangerThanFiction",
-    "paper_packet_activity_conversion": "Comparing the English Colonies: print or project the map and ask students to identify locations, movement patterns, or cause/effect connections. The Middle Colonies: use selected images/captions as a visual evidence set with short observation questions. The New England Colonies: print or project the map and ask students to identify locations, movement patterns, or cause/effect connections. A New Kind of Society: use selected images/captions as a visual evidence set with short observation questions. Two Treatises of Government (John Locke): use a short excerpt with sourcing, context, and main-idea questions. John Locke: convert into short paper comprehension questions. Charles de Montesquieu: convert into short paper comprehension questions.",
+    "paper_packet_sources": "Textbook R.L3 pp. 21-25 | Textbook R.L4 pp. 26-35 | Video: https://www.youtube.com/watch?v=Ig1-Ibb-Qi0 | Video: https://www.youtube.com/watch?v=O7GvWSSMkis | STF video: https://www.youtube.com/watch?v=JmH7XQoxOZ0 | Savvas Interactive Map: Comparing the English Colonies | Savvas Interactive Gallery: The Middle Colonies | Savvas Interactive Map: The New England Colonies | Savvas Interactive Gallery: A New Kind of Society | CFU questions: stored in checkForUnderstanding.questions | Module quiz pool: stored in moduleQuiz.questions | STF story/questions: stored in strangerThanFiction",
+    "paper_packet_activity_conversion": "Comparing the English Colonies: print or project the map and ask students to identify locations, movement patterns, or cause/effect connections. The Middle Colonies: use selected images/captions as a visual evidence set with short observation questions. The New England Colonies: print or project the map and ask students to identify locations, movement patterns, or cause/effect connections. A New Kind of Society: use selected images/captions as a visual evidence set with short observation questions.",
     "paper_packet_notes": "Backfilled from existing Canvas/source JSON on 2026-06-16 for future paper lesson guide generation. Textbook page end ranges come from toc-8.json and should be confirmed against the physical/online textbook before final print distribution.",
-    "savvas_links_total": 9,
-    "savvas_links_linked": 3,
-    "savvas_links_remaining": 6,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_total": 6,
+    "savvas_links_linked": 6,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": "ASSEMBLED except Video Check questions, which are PENDING the two video transcripts (Baptiste to paste). All interactives kept (his rule). eText Savvas links were not in the old descriptions (may be external_tool form) so they are TODO; check before/after build. Then build + reposition after Module 1."
   },
   {
@@ -81,25 +81,25 @@
     "canvas_module_id": 22305,
     "canvas_url": "https://altus.instructure.com/courses/3768/modules#module_22305",
     "content_json": "course_planning/content/8-1/module-03.json",
-    "activity_types": "eText reading | video check | Video | Interactive Map | Interactive Chart | check for understanding | stranger than fiction (choice) | module quiz",
+    "activity_types": "eText reading | video check | Interactive Map | Interactive Chart | check for understanding | stranger than fiction (choice) | module quiz",
     "grading_profile": "video check self-graded (2 attempts) | CFU self-graded (2 attempts) | STF self-graded (2 attempts) | module quiz self-graded (2 attempts, 70% pass) | Savvas eText/interactives not graded; mark done",
     "teacher_graded": "no - standard module is self-graded/auto-checked",
     "textbook_pages": "T1.L1 pp. 43-51 | T1.L2 pp. 52-63",
-    "selected_interactives": "Video: Causes and Results of the French and Indian War | Interactive Map: Major Battles of the French and Indian War | Interactive Chart: Effects of the French and Indian War | Interactive Chart: Crisis on the Frontier",
+    "selected_interactives": "Interactive Map: Major Battles of the French and Indian War | Interactive Chart: Effects of the French and Indian War | Interactive Chart: Crisis on the Frontier",
     "video_plan": "The French and Indian War Explained | Tea, Tar and Tyranny",
     "youtube_links": "https://www.youtube.com/watch?v=9n-gsgqaUo0 | https://www.youtube.com/watch?v=9W_FXW65voE",
     "stf_title": "Washington's Insane Luck",
     "stf_format": "choice",
     "module_quiz": "pool 17, shows 10, attempts 2, pass 70%",
     "paper_packet_readiness": "sources tracked",
-    "paper_packet_sources": "Textbook T1.L1 pp. 43-51 | Textbook T1.L2 pp. 52-63 | Video: https://www.youtube.com/watch?v=9n-gsgqaUo0 | Video: https://www.youtube.com/watch?v=9W_FXW65voE | STF video: https://www.youtube.com/watch?v=SzBEcYTVtfM | Savvas Video: Causes and Results of the French and Indian War | Savvas Interactive Map: Major Battles of the French and Indian War | Savvas Interactive Chart: Effects of the French and Indian War | Savvas Interactive Chart: Crisis on the Frontier | CFU questions: stored in checkForUnderstanding.questions | Module quiz pool: stored in moduleQuiz.questions | STF story/questions: stored in strangerThanFiction",
-    "paper_packet_activity_conversion": "Causes and Results of the French and Indian War: convert into short paper comprehension questions. Major Battles of the French and Indian War: print or project the map and ask students to identify locations, movement patterns, or cause/effect connections. Effects of the French and Indian War: convert the chart into a compare/sort/table activity with short answer checks. Crisis on the Frontier: convert the chart into a compare/sort/table activity with short answer checks.",
+    "paper_packet_sources": "Textbook T1.L1 pp. 43-51 | Textbook T1.L2 pp. 52-63 | Video: https://www.youtube.com/watch?v=9n-gsgqaUo0 | Video: https://www.youtube.com/watch?v=9W_FXW65voE | STF video: https://www.youtube.com/watch?v=SzBEcYTVtfM | Savvas Interactive Map: Major Battles of the French and Indian War | Savvas Interactive Chart: Effects of the French and Indian War | Savvas Interactive Chart: Crisis on the Frontier | CFU questions: stored in checkForUnderstanding.questions | Module quiz pool: stored in moduleQuiz.questions | STF story/questions: stored in strangerThanFiction",
+    "paper_packet_activity_conversion": "Major Battles of the French and Indian War: print or project the map and ask students to identify locations, movement patterns, or cause/effect connections. Effects of the French and Indian War: convert the chart into a compare/sort/table activity with short answer checks. Crisis on the Frontier: convert the chart into a compare/sort/table activity with short answer checks.",
     "paper_packet_notes": "Backfilled from existing Canvas/source JSON on 2026-06-16 for future paper lesson guide generation. Textbook page end ranges come from toc-8.json and should be confirmed against the physical/online textbook before final print distribution.",
-    "savvas_links_total": 6,
-    "savvas_links_linked": 1,
-    "savvas_links_remaining": 5,
-    "next_action": "Run Savvas linking pass for remaining items.",
-    "notes": "ASSEMBLED 2026-05-22 by harvesting old 'Lesson 4' (21218 = T1.L1) and 'Lesson 5' (21219, questions 1-7 = T1.L2; questions 8-10 = T1.L3 saved for Module 4). DECISIONS TO REVIEW: (1) STF = Washington's Insane Luck (L1, has video); Lesson 5's 'Tar and Feathers' STF dropped (one STF per module) - swap if preferred. (2) Kept the Savvas 'Causes and Results' video as a Savvas activity so no content is lost. (3) Video Check questions are LIGHT/general (no transcript yet). LINKS: only the Effects chart has a recovered retrieve UUID; eTexts + Major Battles map + Crisis on the Frontier + the Savvas video are placeholders for the final linking phase (they were external_tool/gateway-only in the old module)."
+    "savvas_links_total": 5,
+    "savvas_links_linked": 5,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
+    "notes": "ASSEMBLED 2026-05-22 by harvesting old 'Lesson 4' (21218 = T1.L1) and 'Lesson 5' (21219, questions 1-7 = T1.L2; questions 8-10 = T1.L3 saved for Module 4). REVIEWED 2026-06-17: removed the extra Savvas 'Causes and Results' video shell from the live module so Module 3 has one main video check plus three quick Savvas interactives. STF = Washington's Insane Luck (L1, has video); Lesson 5's 'Tar and Feathers' STF dropped (one STF per module). Video Check questions are LIGHT/general (no transcript yet). LINKS: only the Effects chart has a recovered retrieve UUID; eTexts + Major Battles map + Crisis on the Frontier are placeholders for the final linking phase (they were external_tool/gateway-only in the old module)."
   },
   {
     "volume": "8-1",
@@ -130,10 +130,10 @@
     "paper_packet_activity_conversion": "Important People of the American Revolution: use selected images/captions as a visual evidence set with short observation questions.",
     "paper_packet_notes": "Backfilled from existing Canvas/source JSON on 2026-06-16 for future paper lesson guide generation. Textbook page end ranges come from toc-8.json and should be confirmed against the physical/online textbook before final print distribution.",
     "savvas_links_total": 2,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 2,
-    "next_action": "Run Savvas linking pass for remaining items.",
-    "notes": "ASSEMBLED 2026-05-22 from old 'Lesson 5' (21219) T1.L3 content. Quiz: 3 harvested (Lexington, Olive Branch, Loyalists) + 7 written by Claude (Baptiste authorized 'make up the rest'); pool 10 draws 7. NEEDS FROM BAPTISTE: a Taking-Up-Arms video link (currently the verified 'American Revolution in 5 Min' overview as a flagged STAND-IN). STF 'Paul Revere's Midnight Ride' is original (text-only). Interactive is light (only 'Important People' gallery existed). LINKS: all placeholders (old items were external_tool/gateway-only)."
+    "savvas_links_linked": 2,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
+    "notes": "ASSEMBLED 2026-05-22 from old 'Lesson 5' (21219) T1.L3 content. Quiz: 3 harvested (Lexington, Olive Branch, Loyalists) + 7 written by Claude (Baptiste authorized 'make up the rest'); pool 10 draws 7. NEEDS FROM BAPTISTE: a Taking-Up-Arms video link (currently the verified 'American Revolution in 5 Min' overview as a flagged STAND-IN). STF 'Paul Revere's Midnight Ride' is original (text-only). Interactive is light (only 'Important People' gallery existed). LINKS: Savvas UUIDs recovered and patched live on 2026-06-17."
   },
   {
     "volume": "8-1",
@@ -164,10 +164,10 @@
     "paper_packet_activity_conversion": "Thomas Paine's Common Sense: use selected images/captions as a visual evidence set with short observation questions. Interactive Declaration of Independence: use selected images/captions as a visual evidence set with short observation questions. Thomas Jefferson: convert into short paper comprehension questions.",
     "paper_packet_notes": "Backfilled from existing Canvas/source JSON on 2026-06-16 for future paper lesson guide generation. Textbook page end ranges come from toc-8.json and should be confirmed against the physical/online textbook before final print distribution.",
     "savvas_links_total": 4,
-    "savvas_links_linked": 1,
-    "savvas_links_remaining": 3,
-    "next_action": "Run Savvas linking pass for remaining items.",
-    "notes": "ASSEMBLED 2026-05-22 from old 'Lesson 6' (21220) T1.L4 content. Quiz: 5 harvested (from the 'Toward Independence' screenshot/API) + 5 written by Claude; pool 10 draws 7. NEEDS FROM BAPTISTE: a Move-Toward-Independence YouTube overview link (currently the verified 'American Revolution in 5 Min' as a flagged STAND-IN). STF 'Caesar Rodney's Midnight Ride' is original (text-only). LINKS: Jefferson bio has a recovered link; Common Sense + Declaration galleries are placeholders."
+    "savvas_links_linked": 4,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
+    "notes": "ASSEMBLED 2026-05-22 from old 'Lesson 6' (21220) T1.L4 content. Quiz: 5 harvested (from the 'Toward Independence' screenshot/API) + 5 written by Claude; pool 10 draws 7. NEEDS FROM BAPTISTE: a Move-Toward-Independence YouTube overview link (currently the verified 'American Revolution in 5 Min' as a flagged STAND-IN). STF 'Caesar Rodney's Midnight Ride' is original (text-only). LINKS: Savvas UUIDs recovered and patched live on 2026-06-17."
   },
   {
     "volume": "8-1",
@@ -198,10 +198,10 @@
     "paper_packet_activity_conversion": "Foreign Aid Plays a Role: convert the timeline into ordering and cause/effect questions.",
     "paper_packet_notes": "Backfilled from existing Canvas/source JSON on 2026-06-16 for future paper lesson guide generation. Textbook page end ranges come from toc-8.json and should be confirmed against the physical/online textbook before final print distribution.",
     "savvas_links_total": 2,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 2,
-    "next_action": "Run Savvas linking pass for remaining items.",
-    "notes": "ASSEMBLED 2026-05-22 from old 'Lesson 6' (21220) T1.L5 content. FULLY RESOURCED: real harvested YouTube video (American Revolution in 5 Min, b0ZYNOc1Tck) and real harvested STF (Washington's Secret Spies, VF8fg58tW68). Quiz: 5 harvested (T1.L5) + 3 written by Claude; pool 8 draws 6. LINKS: Foreign Aid timeline is a placeholder. This completes Topic 1."
+    "savvas_links_linked": 2,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
+    "notes": "ASSEMBLED 2026-05-22 from old 'Lesson 6' (21220) T1.L5 content. FULLY RESOURCED: real harvested YouTube video (American Revolution in 5 Min, b0ZYNOc1Tck) and real harvested STF (Washington's Secret Spies, VF8fg58tW68). Quiz: 5 harvested (T1.L5) + 3 written by Claude; pool 8 draws 6. LINKS: Savvas UUIDs recovered and patched live on 2026-06-17. This completes Topic 1."
   },
   {
     "volume": "8-1",
@@ -232,9 +232,9 @@
     "paper_packet_activity_conversion": "Problems and Effects of the Articles of Confederation: convert the chart into a compare/sort/table activity with short answer checks. The Great Compromise: convert the chart into a compare/sort/table activity with short answer checks. Two Treatises of Government: use selected images/captions as a visual evidence set with short observation questions.",
     "paper_packet_notes": "Backfilled from existing Canvas/source JSON on 2026-06-16 for future paper lesson guide generation. Textbook page end ranges come from toc-8.json and should be confirmed against the physical/online textbook before final print distribution.",
     "savvas_links_total": 6,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 6,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 6,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -266,9 +266,9 @@
     "paper_packet_activity_conversion": "DBQ: use the embedded documents, three short-answer document questions, DBQ paragraph prompt, and 25-point scoring pattern as the main paper packet writing assignment for this module.",
     "paper_packet_notes": "Backfilled from existing Canvas/source JSON on 2026-06-16 for future paper lesson guide generation. Textbook page end ranges come from toc-8.json and should be confirmed against the physical/online textbook before final print distribution. Module 8 now includes a reusable DBQ pattern intended to be repeated once per course where appropriate. Live Module 8 was simplified on 2026-06-17 so the larger DBQ carries the main activity load; the older biography, Constitution interactive primary source, and CFU were removed from the module flow but preserved in omittedActivities.",
     "savvas_links_total": 2,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 2,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 2,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -300,9 +300,9 @@
     "paper_packet_activity_conversion": "Methods of Amending the Constitution: convert the chart into a compare/sort/table activity with short answer checks. The First Amendment: use selected images/captions as a visual evidence set with short observation questions. Voting Responsibly: convert the chart into a compare/sort/table activity with short answer checks. Civic Responsibility: convert the chart into a compare/sort/table activity with short answer checks.",
     "paper_packet_notes": "Backfilled from existing Canvas/source JSON on 2026-06-16 for future paper lesson guide generation. Textbook page end ranges come from toc-8.json and should be confirmed against the physical/online textbook before final print distribution.",
     "savvas_links_total": 6,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 6,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 6,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -334,9 +334,9 @@
     "paper_packet_activity_conversion": "A Controversial Tax: convert the chart into a compare/sort/table activity with short answer checks. Foreign Affairs Under Washington: print or project the map and ask students to identify locations, movement patterns, or cause/effect connections. Early American Leaders: use selected images/captions as a visual evidence set with short observation questions.",
     "paper_packet_notes": "Backfilled from existing Canvas/source JSON on 2026-06-16 for future paper lesson guide generation. Textbook page end ranges come from toc-8.json and should be confirmed against the physical/online textbook before final print distribution.",
     "savvas_links_total": 5,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 5,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 5,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -368,9 +368,9 @@
     "paper_packet_activity_conversion": "Hamilton, Adams, or Jefferson?: convert to a comparison table where students match leaders to parties, policies, and beliefs. Expansion and Exploration: print a U.S. expansion map and ask students to identify the Louisiana Purchase, Mississippi/Missouri River connections, New Orleans, and Lewis and Clark's general route.",
     "paper_packet_notes": "Paper packet can be drafted from this JSON after Canvas build is verified. STF hotspot image is saved locally at assets/module-11-jefferson-monster-map-hotspot.png and should be used as the packet visual if this activity is converted to paper.",
     "savvas_links_total": 4,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 4,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 4,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -436,9 +436,9 @@
     "paper_packet_activity_conversion": "Indian Lands Lost by 1810: print a simplified map and ask students to describe the pattern of land loss and settlement pressure. The War of 1812 map: print a North America map and ask students to label or identify Canada, the Great Lakes, Washington, D.C., Baltimore/Fort McHenry, and New Orleans.",
     "paper_packet_notes": "Paper packet can be drafted from this JSON after Canvas build is verified. The Savvas standards panel was not captured from the printable quiz file; exact HSS codes should be checked later if required for admin paperwork.",
     "savvas_links_total": 3,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 3,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 3,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -470,9 +470,9 @@
     "paper_packet_activity_conversion": "Sectionalism chart: convert to a three-region comparison chart for North, South, and West interests. Expansion of federal power gallery: convert to a match-the-case worksheet for McCulloch v. Maryland, Gibbons v. Ogden, and federal authority. Erie Canal STF: print route image and have students order Lake Erie, Erie Canal, Hudson River, New York Harbor/Atlantic.",
     "paper_packet_notes": "Paper packet can be drafted from this JSON after Canvas build is verified. Preferred video URLs should stay unless the embed fails in Canvas or Baptiste approves a replacement; yt-dlp failure alone is not enough reason to swap them.",
     "savvas_links_total": 3,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 3,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 3,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -504,9 +504,9 @@
     "paper_packet_activity_conversion": "Voting rights timeline: convert to a chronological chart showing voting expansion for white men and limits for women, Black Americans, and Native peoples. Political parties chart: make a compare/contrast table for Democrats and Whigs. Tariffs and Trade map: print a sectional map and ask students why North/West/South interests differed. Bank chart: convert to a claim/evidence sort on Jackson vs bank supporters.",
     "paper_packet_notes": "Paper packet can be drafted from this JSON after Canvas build is verified.",
     "savvas_links_total": 6,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 6,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 6,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -538,9 +538,9 @@
     "paper_packet_activity_conversion": "Selected Native American Groups map: print a regional map and have students identify how many nations lived in areas settlers wanted. Trail of Tears map: print the route and ask students to describe direction, distance, and hardship. Transportation galleries: convert to a match-the-method worksheet for roads, canals, steamboats, and wagons.",
     "paper_packet_notes": "Paper packet can be drafted from this JSON after Canvas build is verified.",
     "savvas_links_total": 6,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 6,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 6,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -572,9 +572,9 @@
     "paper_packet_activity_conversion": "Oregon map: print the Oregon Trail and ask students to trace direction, obstacles, and destination. Texas timeline/map: convert to order events from Mexican Texas to Texas independence to annexation.",
     "paper_packet_notes": "Savvas printable quizzes and exact interactive titles should be backfilled during the later Savvas linking pass.",
     "savvas_links_total": 6,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 6,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 6,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
@@ -606,9 +606,9 @@
     "paper_packet_activity_conversion": "Growth of the West map: print a territorial-growth map and ask students to identify Mexican Cession, Texas, Oregon, and California. People of California gallery: convert to a people-and-impact chart for Native peoples, Californios/Mexican Americans, settlers, miners, and Mormons.",
     "paper_packet_notes": "Question 1 from Savvas printable quiz should be answer-key confirmed later if possible.",
     "savvas_links_total": 3,
-    "savvas_links_linked": 0,
-    "savvas_links_remaining": 3,
-    "next_action": "Run Savvas linking pass for remaining items.",
+    "savvas_links_linked": 3,
+    "savvas_links_remaining": 0,
+    "next_action": "Built; review only if content changes.",
     "notes": ""
   },
   {
