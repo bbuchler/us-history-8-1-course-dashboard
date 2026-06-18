@@ -229,8 +229,7 @@
 <main>
   <section class="block" style="margin-bottom:14px;">
     <h2 style="margin-top:0;color:#0071ce;">Reviewer Snapshot</h2>
-    <p>This static dashboard is generated from the local course-planning source files. Canvas links may require an Altus/Canvas login. No API keys or private credentials are included.</p>
-    <p class="muted">Last exported: 6/18/2026, 2:39:26 PM Pacific</p>
+    <p>Use this dashboard to review the US History course build, module sequence, Canvas items, grading profile, and downloadable course outline.</p>
   </section>
   <section class="summary" id="summary"></section>
   <div class="toolbar" id="filters"></div>
@@ -298,6 +297,7 @@ function moduleDetails(row) {
   const interactives = splitList(row.selected_interactives);
   const videos = splitList(row.video_plan);
   const youtube = splitList(row.youtube_links);
+  const standards = splitList(row.standards_summary);
   const packetSources = splitList(row.paper_packet_sources);
   const conversion = splitList(row.paper_packet_activity_conversion);
   return `
@@ -320,8 +320,8 @@ function moduleDetails(row) {
         </div>
         <div class="block">
           <h3>Standards / Essential Question</h3>
-          <p class="muted">Stored in the module JSON and admin outline export when built.</p>
-          <p>${esc(row.topic || '')}</p>
+          ${row.essential_question ? `<p><b>Essential Question:</b> ${esc(row.essential_question)}</p>` : '<p class="muted">Essential question not recorded yet.</p>'}
+          ${standards.length ? `<ul class="list">${standards.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="muted">Standards not recorded yet.</p>'}
         </div>
         <div class="block">
           <h3>Activities</h3>
