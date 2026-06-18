@@ -2,7 +2,7 @@
 
 Course: Sandbox: US History 8-2 (3769)
 
-Built modules: 19/20
+Built modules: 20/20
 Current in-progress module: none
 
 | Module | Type | Title | Topic | Status | Grading | Canvas | Savvas Links | Next Action |
@@ -26,4 +26,4 @@ Current in-progress module: none
 | 17 | standard | The Progressive Movement | The Progressive Era (1865-1920) | built | no - standard module is self-graded/auto-checked | [22388](https://altus.instructure.com/courses/3769/modules#module_22388) | 6/6 linked | Built; review only if content changes. |
 | 18 | standard | Social Justice & a Changing Culture | The Progressive Era (1865-1920) | built | no - standard module is self-graded/auto-checked | [22389](https://altus.instructure.com/courses/3769/modules#module_22389) | 6/6 linked | Built; review only if content changes. |
 | 19 | project | PROJECT - Current Events Connection | Current events, historical thinking, and course connections | built | yes - one teacher-graded final project only | [22390](https://altus.instructure.com/courses/3769/modules#module_22390) |  | Built; review project flow and rubric. |
-| 20 | exam | Study Guide & Final Exam | Semester 2 review and Mastery Connect final exam | drafted | no - final exam expected through Mastery Connect unless changed |  |  | Plan study guide and final exam setup. |
+| 20 | exam | Study Guide & Final Exam | Semester 2 review and Mastery Connect final exam | built | no - no teacher-graded Canvas item in this temporary review module | [22391](https://altus.instructure.com/courses/3769/modules#module_22391) |  | Built; connect or confirm Mastery Connect final exam when ready. |
