@@ -2,7 +2,7 @@
 
 Course: Sandbox: US History 8-2 (3769)
 
-Built modules: 12/20
+Built modules: 19/20
 Current in-progress module: none
 
 | Module | Type | Title | Topic | Status | Grading | Canvas | Savvas Links | Next Action |
@@ -19,11 +19,11 @@ Current in-progress module: none
 | 10 | standard | Reconstruction & Its Aftermath | The Reconstruction Era (1865-1877) | built | no - standard module is self-graded/auto-checked | [22382](https://altus.instructure.com/courses/3769/modules#module_22382) | 6/6 linked | Built; review only if content changes. |
 | 11 | project | PROJECT - Was Abraham Lincoln Racist? Academic Debate | Civil War, Emancipation, and Reconstruction | built | yes - final presentation and oral presentation/response | [22378](https://altus.instructure.com/courses/3769/modules#module_22378) |  | Built; review project flow and rubric. |
 | 12 | standard | Mining, Railroads & Western Agriculture | Industrial and Economic Growth (1865-1914) | built | no - standard module is self-graded/auto-checked | [22383](https://altus.instructure.com/courses/3769/modules#module_22383) | 6/6 linked | Built; review only if content changes. |
-| 13 | standard | Hardship for American Indians | Industrial and Economic Growth (1865-1914) | drafted | no - standard module is self-graded/auto-checked |  |  | Review draft JSON, then build and verify in Canvas. |
-| 14 | standard | Industry, Corporations & Labor | Industrial and Economic Growth (1865-1914) | drafted | no - standard module is self-graded/auto-checked |  |  | Review draft JSON, then build and verify in Canvas. |
-| 15 | standard | New Technologies | Industrial and Economic Growth (1865-1914) | drafted | no - standard module is self-graded/auto-checked |  |  | Review draft JSON, then build and verify in Canvas. |
-| 16 | standard | Immigration & Urbanization | The Progressive Era (1865-1920) | drafted | no - standard module is self-graded/auto-checked |  |  | Review draft JSON, then build and verify in Canvas. |
-| 17 | standard | The Progressive Movement | The Progressive Era (1865-1920) | drafted | no - standard module is self-graded/auto-checked |  |  | Review draft JSON, then build and verify in Canvas. |
-| 18 | standard | Social Justice & a Changing Culture | The Progressive Era (1865-1920) | drafted | no - standard module is self-graded/auto-checked |  |  | Review draft JSON, then build and verify in Canvas. |
-| 19 | project | PROJECT - Current Events Connection | Current events, historical thinking, and course connections | drafted | yes - one teacher-graded final project only |  |  | Review project draft, then build and verify in Canvas. |
+| 13 | standard | Hardship for American Indians | Industrial and Economic Growth (1865-1914) | built | no - standard module is self-graded/auto-checked | [22384](https://altus.instructure.com/courses/3769/modules#module_22384) | 3/3 linked | Built; review only if content changes. |
+| 14 | standard | Industry, Corporations & Labor | Industrial and Economic Growth (1865-1914) | built | no - standard module is self-graded/auto-checked | [22385](https://altus.instructure.com/courses/3769/modules#module_22385) | 6/6 linked | Built; review only if content changes. |
+| 15 | standard | New Technologies | Industrial and Economic Growth (1865-1914) | built | no - standard module is self-graded/auto-checked | [22386](https://altus.instructure.com/courses/3769/modules#module_22386) | 4/4 linked | Built; review only if content changes. |
+| 16 | standard | Immigration & Urbanization | The Progressive Era (1865-1920) | built | no - standard module is self-graded/auto-checked | [22387](https://altus.instructure.com/courses/3769/modules#module_22387) | 6/6 linked | Built; review only if content changes. |
+| 17 | standard | The Progressive Movement | The Progressive Era (1865-1920) | built | no - standard module is self-graded/auto-checked | [22388](https://altus.instructure.com/courses/3769/modules#module_22388) | 6/6 linked | Built; review only if content changes. |
+| 18 | standard | Social Justice & a Changing Culture | The Progressive Era (1865-1920) | built | no - standard module is self-graded/auto-checked | [22389](https://altus.instructure.com/courses/3769/modules#module_22389) | 6/6 linked | Built; review only if content changes. |
+| 19 | project | PROJECT - Current Events Connection | Current events, historical thinking, and course connections | built | yes - one teacher-graded final project only | [22390](https://altus.instructure.com/courses/3769/modules#module_22390) |  | Built; review project flow and rubric. |
 | 20 | exam | Study Guide & Final Exam | Semester 2 review and Mastery Connect final exam | drafted | no - final exam expected through Mastery Connect unless changed |  |  | Plan study guide and final exam setup. |
