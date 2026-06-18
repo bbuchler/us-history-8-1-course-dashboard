@@ -1,4 +1,4 @@
-# US History 8-2 Course Dashboard
+# US History 8 Course Dashboard
 
 Static reviewer dashboard generated from the Canvas course planning project.
 

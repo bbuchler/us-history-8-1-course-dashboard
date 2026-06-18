@@ -221,7 +221,7 @@
 </head>
 <body>
 <header>
-  <h1>US History 8-2 Course Build Dashboard</h1>
+  <h1>US History 8 Course Build Dashboard</h1>
   <select id="courseSelect"></select>
   <button class="primary" id="exportBtn">Download Course Template</button>
 </header>
@@ -238,7 +238,7 @@
 
 <script>
 const $ = (s, el = document) => el.querySelector(s);
-const state = { courses: [], course: null, toc: {}, plan: null, tracker: [], filter: 'all', defaultCourseId: '8-2' };
+const state = { courses: [], course: null, toc: {}, plan: null, tracker: [], filter: 'all', defaultCourseId: '8-1' };
 
 async function loadJson(path, fallback = null) {
   try {
