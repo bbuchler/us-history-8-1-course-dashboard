@@ -238,7 +238,7 @@
 
 <script>
 const $ = (s, el = document) => el.querySelector(s);
-const state = { courses: [], course: null, toc: {}, plan: null, tracker: [], filter: 'all' };
+const state = { courses: [], course: null, toc: {}, plan: null, tracker: [], filter: 'all', defaultCourseId: '8-2' };
 
 async function loadJson(path, fallback = null) {
   try {
@@ -453,7 +453,9 @@ async function init() {
     const volume = state.plan?.volume || state.course?.id || '8-1';
     window.location.href = 'exports/' + state.course.outline;
   });
-  await showCourse(state.courses[0]);
+  const defaultCourse = state.courses.find(c => c.id === state.defaultCourseId) || state.courses[0];
+  if (defaultCourse) $('#courseSelect').value = defaultCourse.id;
+  await showCourse(defaultCourse);
 }
 
 init().catch(err => {
