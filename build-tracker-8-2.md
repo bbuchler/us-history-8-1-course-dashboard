@@ -2,22 +2,22 @@
 
 Course: Sandbox: US History 8-2 (3769)
 
-Built modules: 4/20
-Current in-progress module: Module 5 - The Road to War: Compromises & Tensions (+ DBQ: Lincoln & Douglas)
+Built modules: 5/20
+Current in-progress module: Module 6 - The Civil War Begins
 
 | Module | Type | Title | Topic | Status | Grading | Canvas | Savvas Links | Next Action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | standard | Industrialization & Immigration in the North | Society and Culture Before the Civil War (1820-1860) | built | no - standard module is self-graded/auto-checked | [22372](https://altus.instructure.com/courses/3769/modules#module_22372) | 5/5 linked | Built; review only if content changes. |
 | 2 | standard | King Cotton & Life in the South | Society and Culture Before the Civil War (1820-1860) | built | no - standard module is self-graded/auto-checked | [22373](https://altus.instructure.com/courses/3769/modules#module_22373) | 4/4 linked | Built; review only if content changes. |
 | 3 | standard | Abolitionism | Society and Culture Before the Civil War (1820-1860) | built | no - standard module is self-graded/auto-checked | [22374](https://altus.instructure.com/courses/3769/modules#module_22374) | 3/3 linked | Built; review only if content changes. |
-| 4 | standard | Reform, Women's Rights & Culture | Society and Culture Before the Civil War (1820-1860) | built | no - standard module is self-graded/auto-checked | [22375](https://altus.instructure.com/courses/3769/modules#module_22375) |  | Built; review only if content changes. |
-| 5 | standard | The Road to War: Compromises & Tensions (+ DBQ: Lincoln & Douglas) | Sectionalism and Civil War (1820-1865) | in_progress |  |  |  | Finish resource choices, video, STF, quiz pool, then build. |
-| 6 | standard | The Civil War Begins | Sectionalism and Civil War (1820-1865) | not_started |  |  |  | Inspect Savvas resources and draft module JSON. |
+| 4 | standard | Reform, Women's Rights & Culture | Society and Culture Before the Civil War (1820-1860) | built | no - standard module is self-graded/auto-checked | [22375](https://altus.instructure.com/courses/3769/modules#module_22375) | 6/6 linked | Built; review only if content changes. |
+| 5 | standard | The Road to War: Compromises & Tensions (+ DBQ: Lincoln & Douglas) | Sectionalism and Civil War (1820-1865) | built | yes - includes teacher-graded DBQ/writing assignment | [22376](https://altus.instructure.com/courses/3769/modules#module_22376) |  | Built; review only if content changes. |
+| 6 | standard | The Civil War Begins | Sectionalism and Civil War (1820-1865) | in_progress |  |  |  | Finish resource choices, video, STF, quiz pool, then build. |
 | 7 | standard | Emancipation & Life in Wartime | Sectionalism and Civil War (1820-1865) | not_started |  |  |  | Inspect Savvas resources and draft module JSON. |
 | 8 | standard | The War's End | Sectionalism and Civil War (1820-1865) | not_started |  |  |  | Inspect Savvas resources and draft module JSON. |
 | 9 | standard | Early & Radical Reconstruction | The Reconstruction Era (1865-1877) | not_started |  |  |  | Inspect Savvas resources and draft module JSON. |
 | 10 | standard | Reconstruction & Its Aftermath | The Reconstruction Era (1865-1877) | not_started |  |  |  | Inspect Savvas resources and draft module JSON. |
-| 11 | project | PROJECT — Was Abraham Lincoln Racist? Academic Debate |  | project | yes - project/rubric expected |  |  | Plan project with Baptiste before building. |
+| 11 | project | PROJECT - Was Abraham Lincoln Racist? Academic Debate | Civil War, Emancipation, and Reconstruction | drafted | yes - final presentation and oral presentation/response |  |  | Review project draft, then build and verify in Canvas. |
 | 12 | standard | Mining, Railroads & Western Agriculture | Industrial and Economic Growth (1865-1914) | not_started |  |  |  | Inspect Savvas resources and draft module JSON. |
 | 13 | standard | Hardship for American Indians | Industrial and Economic Growth (1865-1914) | not_started |  |  |  | Inspect Savvas resources and draft module JSON. |
 | 14 | standard | Industry, Corporations & Labor | Industrial and Economic Growth (1865-1914) | not_started |  |  |  | Inspect Savvas resources and draft module JSON. |
