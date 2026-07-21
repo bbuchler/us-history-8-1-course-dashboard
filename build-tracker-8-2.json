@@ -709,14 +709,20 @@
     "stf_title": "",
     "stf_format": "",
     "module_quiz": "",
-    "paper_packet_readiness": "placeholder only - wait for Mastery Connect final exam, then build a shorter targeted study guide from that assessment",
-    "paper_packet_sources": "Teacher-provided final exam or Mastery Connect blueprint will drive the final study guide later. The old 8-2 PDF guide was reviewed and judged too long for middle school use.",
-    "paper_packet_activity_conversion": "After the final exam is confirmed, create a shorter study guide that works backward from the tested topics and skills.",
-    "paper_packet_notes": "Actual Mastery Connect exam is not included here. This module currently contains placeholder directions for the study guide and final exam.",
+    "paper_packet_readiness": "ready - updated 32-question study guide is printable and saved as a Word document",
+    "paper_packet_sources": "course_planning/content/8-2/module-20-assets/US-History-8-2-Final-Exam-Study-Guide-CLEAN.docx",
+    "paper_packet_activity_conversion": "Use the broad student-facing prompts to review the concepts and historical-thinking skills represented across Mastery Connect Forms A, B, and C.",
+    "paper_packet_notes": "Mastery Connect Forms A, B, and C are created but remain unavailable and undelivered. This module contains the downloadable study guide and an exam directions placeholder until the team confirms delivery and Canvas tracker setup.",
     "savvas_links_total": 0,
     "savvas_links_linked": 0,
     "savvas_links_remaining": 0,
-    "next_action": "Built; connect or confirm Mastery Connect final exam when ready.",
-    "notes": "Created 2026-06-18 as a review/placeholder module for the Semester 2 Final Exam. The actual exam will be connected later through Mastery Connect."
+    "next_action": "Team confirmation needed before benchmark delivery, tracker linking, Canvas assignment, or grade passback setup.",
+    "notes": "Study guide updated and Mastery Connect Forms A, B, and C recorded 2026-07-21. The assessments remain unavailable, undelivered, and unassigned pending team confirmation of the delivery and Canvas tracker workflow.",
+    "mastery_connect_status": "Created in the Ghost Social Studies account; private/unavailable; not delivered, shared, or assigned",
+    "mastery_connect_maps": "Master 8th Grade US History 8-2 (ID 411854) https://app.masteryconnect.com/curriculum_maps/411854 | 8th Grade US History 8-2 2026-2027 (ID 411855) https://app.masteryconnect.com/curriculum_maps/411855",
+    "mastery_connect_forms": "Form A: ID 10092603, 32 questions, 17 standards, Main exam, https://app.masteryconnect.com/materials/10092603 | Form B: ID 10093542, 32 questions, 17 standards, Alternate/retake with six substitutions, https://app.masteryconnect.com/materials/10093542 | Form C: ID 10093546, 20 questions, 17 standards, Shorter accessible alternate, https://app.masteryconnect.com/materials/10093546",
+    "mastery_connect_standards": "8.6.1, 8.6.3, 8.6.6, 8.7.1, 8.7.2, 8.9.1, 8.9.5, 8.10.2, 8.10.4, 8.10.6, 8.11.1, 8.11.3, 8.11.5, 8.12.2, 8.12.5, 8.12.6, 8.12.9",
+    "mastery_connect_delivery": "Paused pending team confirmation: benchmark Manage Delivery, matching tracker import/link to Canvas, grade passback, and A/B/C retake behavior",
+    "mastery_connect_ledger": "course_planning/mastery-connect/US-History-8-2-assessment-ledger.md"
   }
 ]

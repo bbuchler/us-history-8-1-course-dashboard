@@ -669,14 +669,20 @@
     "stf_title": "",
     "stf_format": "",
     "module_quiz": "",
-    "paper_packet_readiness": "ready - study guide is printable and saved as a Word document",
+    "paper_packet_readiness": "ready - updated 30-question study guide is printable and saved as a Word document",
     "paper_packet_sources": "course_planning/content/8-1/module-20-assets/US-History-8-1-Final-Exam-Study-Guide.docx",
     "paper_packet_activity_conversion": "study guide and final exam directions packet",
-    "paper_packet_notes": "Actual Mastery Connect exam is not included here. This module only contains review directions and the downloadable study guide.",
+    "paper_packet_notes": "Mastery Connect Forms A, B, and C are created but remain unavailable and undelivered. This module contains the downloadable study guide and an exam directions placeholder until the team confirms delivery and Canvas tracker setup.",
     "savvas_links_total": 0,
     "savvas_links_linked": 0,
     "savvas_links_remaining": 0,
-    "next_action": "Built; connect or confirm Mastery Connect final exam when ready.",
-    "notes": "Created 2026-06-16. Module 20 is a review/placeholder module for the Semester 1 Final Exam, also called the midterm. The actual exam will be connected later through Mastery Connect."
+    "next_action": "Team confirmation needed before benchmark delivery, tracker linking, Canvas assignment, or grade passback setup.",
+    "notes": "Study guide updated and Mastery Connect Forms A, B, and C recorded 2026-07-21. The assessments remain unavailable, undelivered, and unassigned pending team confirmation of the delivery and Canvas tracker workflow.",
+    "mastery_connect_status": "Created in the Ghost Social Studies account; private/unavailable; not delivered, shared, or assigned",
+    "mastery_connect_maps": "Master 8th Grade US History 8-1 (ID 411849) https://app.masteryconnect.com/curriculum_maps/411849 | 8th Grade US History 8-1 2026-2027 (ID 411852) https://app.masteryconnect.com/curriculum_maps/411852",
+    "mastery_connect_forms": "Form A: ID 10092525, 32 questions, 16 standards, Main exam, https://app.masteryconnect.com/materials/10092525 | Form B: ID 10092568, 32 questions, 16 standards, Alternate/retake with six substitutions, https://app.masteryconnect.com/materials/10092568 | Form C: ID 10092577, 20 questions, 16 standards, Shorter accessible alternate, https://app.masteryconnect.com/materials/10092577",
+    "mastery_connect_standards": "8.1.1, 8.1.2, 8.1.3, 8.1.4, 8.2.2, 8.2.3, 8.2.6, 8.2.7, 8.3.2, 8.3.4, 8.3.5, 8.4.1, 8.5.2, 8.8.1, 8.8.2, 8.8.6",
+    "mastery_connect_delivery": "Paused pending team confirmation: benchmark Manage Delivery, matching tracker import/link to Canvas, grade passback, and A/B/C retake behavior",
+    "mastery_connect_ledger": "course_planning/mastery-connect/US-History-8-1-assessment-ledger.md"
   }
 ]

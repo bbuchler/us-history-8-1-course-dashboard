@@ -303,6 +303,8 @@ function moduleDetails(row) {
   const standards = splitList(row.standards_summary);
   const packetSources = splitList(row.paper_packet_sources);
   const conversion = splitList(row.paper_packet_activity_conversion);
+  const masteryMaps = splitList(row.mastery_connect_maps);
+  const masteryForms = splitList(row.mastery_connect_forms);
   const projectMaterials = row.type === 'project' ? packetSources.slice(0, 6) : [];
   return `
     <div class="details">
@@ -347,6 +349,15 @@ function moduleDetails(row) {
           <h3>Module Quiz</h3>
           <p>${esc(row.module_quiz || 'not drafted yet')}</p>
         </div>`}
+        ${row.mastery_connect_status ? `<div class="block wide">
+          <h3>Mastery Connect Exams</h3>
+          <p><b>Status:</b> ${esc(row.mastery_connect_status)}</p>
+          ${masteryMaps.length ? `<p><b>Maps:</b></p><ul class="list">${masteryMaps.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+          ${masteryForms.length ? `<p><b>Forms:</b></p><ul class="list">${masteryForms.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+          ${row.mastery_connect_standards ? `<p><b>Priority standards:</b> ${esc(row.mastery_connect_standards)}</p>` : ''}
+          <p><b>Delivery:</b> ${esc(row.mastery_connect_delivery || 'Not configured')}</p>
+          ${row.mastery_connect_ledger ? `<p class="muted"><b>Detailed local record:</b> ${esc(row.mastery_connect_ledger)}</p>` : ''}
+        </div>` : ''}
         <div class="block wide">
           <h3>Paper Packet Future View</h3>
           <p><b>Readiness:</b> ${esc(row.paper_packet_readiness || 'not started')}</p>
